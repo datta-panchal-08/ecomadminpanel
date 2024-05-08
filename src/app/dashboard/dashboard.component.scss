@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: var(--secondary-color);
+    height: 50px;
+    gap: 20px;
+    padding-right: 20px;
+    color: var(--primary-color);
+    span{
+        cursor: pointer;
+        font-size: 1.3rem;
+    }
+}
+.container-fluid{
+    display: flex;
+    width: 100%;
+    min-height: 95vh;
+    margin: 0;
+    padding: 0;
+}
+.container.sidebar{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,var(--secondary-color),rgb(34,25,95));
+
+    width: 20%;
+    background-color: #fff;
+    border-top: solid 1px rgba(211, 211, 211, 0.212);
+}
+.container.main{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
